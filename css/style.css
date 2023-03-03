@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(255, 252, 247);
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.form {
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+.form__fieldset {
+    border: 3px solid #a64b4b;
+    border-radius: 25px;
+}
+
+.form__header {
+    font-size: 30px;
+    text-align: center;
+    color: #973a3a;
+    margin-bottom: 30px;
+}
+
+.form__select {
+    max-width: 150px;
+}
+
+.form__input {
+    max-width: 150px;
+}
+
+.form__button {
+    background-color: #973a3a;
+    color: beige;
+    padding: 10px;
+    width: 200px;
+}
