@@ -7,12 +7,17 @@ html {
 }
 
 .body {
-    background-color: rgb(255, 252, 247);
+    background-image: url("../images/background\ picture\ piggybank.jpg");
+    background-size: 100%;
     font-family: Montserrat;
     font-size: 20px;
 }
 
 .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     text-align: center;
     margin: 50px;
     padding: 20px;
@@ -24,6 +29,7 @@ html {
 }
 
 .form__header {
+    width: 350px;
     font-size: 30px;
     text-align: center;
     color: #973a3a;
