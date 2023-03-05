@@ -2,7 +2,7 @@
 
 Made with currency rates from 24.02.2023 just to practice new JS functions I had learned.
 
-Link do DEMO: *[Currency converter](https://mcbombipl.github.io/currency-converter/)*
+Link to the DEMO: *[Currency converter](https://mcbombipl.github.io/currency-converter/)*
 
 #### Switch PLN to:
 - EUR,
