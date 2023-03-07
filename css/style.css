@@ -8,7 +8,9 @@ html {
 
 .body {
     background-image: url("../images/background\ picture\ piggybank.jpg");
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
     font-family: Montserrat;
     font-size: 20px;
 }
