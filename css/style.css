@@ -16,10 +16,14 @@ html {
 }
 
 .form {
+    background-color: wheat;
+    box-shadow: 2px 2px 13px 5px #000000;
     display: flex;
+    max-width: 40%;
+    border-radius: 2%;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
     margin: 50px;
     padding: 20px;
