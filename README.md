@@ -4,7 +4,7 @@ Made with currency rates from 24.02.2023 just to practice new JS functions I had
 
 Have a quick look how it works:
 
-[DEMO gif](gifs/DEMO.gif)
+![DEMO gif](gifs/DEMO.gif)
 
 Done using:
 - HTML,
