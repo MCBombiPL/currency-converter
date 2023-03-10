@@ -27,6 +27,14 @@
         }
     }
 
+    const updateResultText = () => {
+        const resultElement = document.querySelector(".js-resultElement");
+        const selectElement = document.querySelector(".js-select");
+        const inputElement = document.querySelector(".js-input");
+
+        resultElement.innerHTML = `<strong>${inputElement.value} PLN = ${calculateResult().toFixed(2)} ${selectElement.value}</strong>`;
+    }
+
     const showResult = () => {
 
         const convertingButton = document.querySelector(".js-convertingButton");
@@ -36,11 +44,7 @@
 
             calculateResult();
 
-            const resultElement = document.querySelector(".js-resultElement");
-            const selectElement = document.querySelector(".js-select");
-            const inputElement = document.querySelector(".js-input");
-
-            resultElement.innerHTML = `<strong>${inputElement.value} PLN = ${calculateResult().toFixed(2)} ${selectElement.value}</strong>`;
+            updateResultText();
         });
     }
     showResult();
