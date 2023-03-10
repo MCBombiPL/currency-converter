@@ -42,8 +42,6 @@
         convertingButton.addEventListener("click", (event) => {
             event.preventDefault();
 
-            calculateResult();
-
             updateResultText();
         });
     }
