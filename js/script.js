@@ -18,7 +18,6 @@
             case "GBP":
                 return inputElement.value / 5.36;
 
-
             case "CZK":
                 return inputElement.value / 0.2;
 
